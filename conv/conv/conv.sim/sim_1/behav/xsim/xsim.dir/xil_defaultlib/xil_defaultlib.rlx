@@ -1,0 +1,12 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+E:/Vivado/project/conv/conv.v,1711117638,verilog,,E:/Vivado/project/conv/conv_bias_buffer.v,,conv,,,,,,,,
+E:/Vivado/project/conv/conv/conv.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+E:/Vivado/project/conv/conv_bias_buffer.v,1711678875,verilog,,E:/Vivado/project/conv/conv_layer.v,,conv_bias_buffer,,,,,,,,
+E:/Vivado/project/conv/conv_layer.v,1711940524,verilog,,E:/Vivado/project/conv/conv_psum_buffer.v,,conv_layer,,,,,,,,
+E:/Vivado/project/conv/conv_psum_buffer.v,1711973484,verilog,,E:/Vivado/project/conv/conv_weight_buffer.v,,conv_psum_buffer,,,,,,,,
+E:/Vivado/project/conv/conv_tb.v,1711968238,verilog,,,,conv_tb,,,,,,,,
+E:/Vivado/project/conv/conv_weight_buffer.v,1711706642,verilog,,E:/Vivado/project/conv/image_buffer.v,,conv_weight_buffer,,,,,,,,
+E:/Vivado/project/conv/image_buffer.v,1711707309,verilog,,E:/Vivado/project/conv/conv_tb.v,,image_buffer,,,,,,,,

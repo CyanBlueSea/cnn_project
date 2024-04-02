@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../conv_bias_buffer.v" \
+"../../../../../conv_weight_buffer.v" \
+"../../../../../dwconv_bias_buffer.v" \
+"../../../../../dwconv_weight_buffer.v" \
+"../../../../../tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

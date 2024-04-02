@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="conv_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="conv_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="26,714.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="26,934.001 ns"></ZoomEndTime>
+      <Cursor1Time time="27,445.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="262"></NameColumnWidth>
+      <ValueColumnWidth column_width="126"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/conv_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conv_tb/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conv_tb/image_w_en" type="logic">
+      <obj_property name="ElementShortName">image_w_en</obj_property>
+      <obj_property name="ObjectShortName">image_w_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conv_tb/image_ready" type="logic">
+      <obj_property name="ElementShortName">image_ready</obj_property>
+      <obj_property name="ObjectShortName">image_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conv_tb/case_stage" type="array">
+      <obj_property name="ElementShortName">case_stage[1:0]</obj_property>
+      <obj_property name="ObjectShortName">case_stage[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conv_tb/conv_en" type="logic">
+      <obj_property name="ElementShortName">conv_en</obj_property>
+      <obj_property name="ObjectShortName">conv_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conv_tb/conv_image" type="array">
+      <obj_property name="ElementShortName">conv_image[79:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_image[79:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conv_tb/image_out" type="array">
+      <obj_property name="ElementShortName">image_out[0:9][7:0]</obj_property>
+      <obj_property name="ObjectShortName">image_out[0:9][7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conv_tb/weight_out" type="array">
+      <obj_property name="ElementShortName">weight_out[0:223][7:0]</obj_property>
+      <obj_property name="ObjectShortName">weight_out[0:223][7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conv_tb/psum_out" type="array">
+      <obj_property name="ElementShortName">psum_out[0:127][31:0]</obj_property>
+      <obj_property name="ObjectShortName">psum_out[0:127][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conv_tb/input_image" type="array">
+      <obj_property name="ElementShortName">input_image[0:299][31:0]</obj_property>
+      <obj_property name="ObjectShortName">input_image[0:299][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conv_tb/conv_psum" type="array">
+      <obj_property name="ElementShortName">conv_psum[4095:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_psum[4095:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conv_tb/conv_out" type="array">
+      <obj_property name="ElementShortName">conv_out[0:127][31:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_out[0:127][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conv_tb/conv_done" type="logic">
+      <obj_property name="ElementShortName">conv_done</obj_property>
+      <obj_property name="ObjectShortName">conv_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conv_tb/wr_ptr" type="array">
+      <obj_property name="ElementShortName">wr_ptr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_ptr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conv_tb/rd_ptr" type="array">
+      <obj_property name="ElementShortName">rd_ptr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_ptr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conv_tb/output_conv" type="array">
+      <obj_property name="ElementShortName">output_conv[4095:0]</obj_property>
+      <obj_property name="ObjectShortName">output_conv[4095:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conv_tb/num" type="array">
+      <obj_property name="ElementShortName">num[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

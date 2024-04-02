@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado/project/conv/conv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado/project/conv/conv_bias_buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv_bias_buffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado/project/conv/conv_layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado/project/conv/conv_psum_buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv_psum_buffer
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'wr_ptr' is not allowed [E:/Vivado/project/conv/conv_psum_buffer.v:26]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'rd_ptr' is not allowed [E:/Vivado/project/conv/conv_psum_buffer.v:27]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'w_en' is not allowed [E:/Vivado/project/conv/conv_psum_buffer.v:28]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'num' is not allowed [E:/Vivado/project/conv/conv_psum_buffer.v:49]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado/project/conv/conv_weight_buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv_weight_buffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado/project/conv/image_buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module image_buffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado/project/conv/conv_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv_tb

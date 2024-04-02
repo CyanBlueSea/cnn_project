@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../conv.v" \
+"../../../../../conv_bias_buffer.v" \
+"../../../../../conv_layer.v" \
+"../../../../../conv_psum_buffer.v" \
+"../../../../../conv_weight_buffer.v" \
+"../../../../../image_buffer.v" \
+"../../../../../conv_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

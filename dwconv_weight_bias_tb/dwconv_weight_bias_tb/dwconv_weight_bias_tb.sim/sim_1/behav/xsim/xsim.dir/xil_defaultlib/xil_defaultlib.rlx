@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+E:/Vivado/project/dwconv_weight_bias_tb/conv_bias_buffer.v,1712025995,verilog,,E:/Vivado/project/dwconv_weight_bias_tb/conv_weight_buffer.v,,conv_bias_buffer,,,,,,,,
+E:/Vivado/project/dwconv_weight_bias_tb/conv_weight_buffer.v,1712025982,verilog,,E:/Vivado/project/dwconv_weight_bias_tb/dwconv_bias_buffer.v,,conv_weight_buffer,,,,,,,,
+E:/Vivado/project/dwconv_weight_bias_tb/dwconv_bias_buffer.v,1712025783,verilog,,E:/Vivado/project/dwconv_weight_bias_tb/dwconv_weight_buffer.v,,dwconv_bias_buffer,,,,,,,,
+E:/Vivado/project/dwconv_weight_bias_tb/dwconv_weight_bias_tb/dwconv_weight_bias_tb.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+E:/Vivado/project/dwconv_weight_bias_tb/dwconv_weight_buffer.v,1712024758,verilog,,E:/Vivado/project/dwconv_weight_bias_tb/tb.v,,dwconv_weight_buffer,,,,,,,,
+E:/Vivado/project/dwconv_weight_bias_tb/tb.v,1712028776,verilog,,,,tb,,,,,,,,
